@@ -1,0 +1,110 @@
+.landing{
+    
+    /* background-color: #7a4f4f; */
+    background-image: url('https://s3.amazonaws.com/images.ecwid.com/images/30049435/1687899467.jpg');
+
+}
+.home__base {
+    margin: auto;
+    height: 620px;
+    width: 450px;
+    /* background-color: #f7f4f4; */
+    border: 0px solid #7a4f4f;
+    /* background-image: url('https://s3.amazonaws.com/images.ecwid.com/images/30049435/1687899467.jpg'); */
+    padding: 40px;
+    border-radius: 1%;
+    margin-right: 20cm;
+    align-content: center;
+    
+}
+
+.welcome__pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 20cm;
+    width: 100%;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10);
+    border-radius: 0px;
+}
+.welcome__text {
+    margin-top:0cm ;
+    margin-left: 0.1cm;
+    
+    color: rgb(255, 255, 255);
+    font-size:40px;
+    font-weight: bold;
+}
+.order__base {
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,0.10);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    /* padding-top: 25px; */
+    /* align-content: center; */
+
+}
+.order__form {
+    padding: 25px;
+    display: inline-block;
+    background-color: #f7f4f4;
+    width: 400px;
+    margin-left: 0cm;
+    text-align: right; 
+}
+.order__line{
+    text-align: right; 
+    margin: 15px;
+}
+.order__label{
+    margin: 15px;
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.order__input{
+}
+
+.order__btn_div {   
+    padding: 10px;    
+    align-content: center;
+}
+.order__btn { 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-right: 2cm;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    /* background-color: white;  */
+    background-color: #7a4f4f;
+    color: #f7f4f4; 
+    /* border: 2px solid #0e0e0e; */
+    border:none;
+    /* border-radius: 10%; */
+    font-weight: bold;
+    
+  }
+  
+  .order__btn:hover {
+    background-color: #0c0c0c;
+    color: white;
+  }
+
+  .order_done_box {
+    
+    width: '300px';
+
+      
+  }
+
+  .done{
+    color: #ffffff;
+    font-size:20px;
+    font-weight: bold;
+  }
